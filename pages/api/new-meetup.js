@@ -1,5 +1,3 @@
-//mongodb password c7qazqiFLWBdTg8X
-
 import { MongoClient } from "mongodb";
 
 const mongoPw= process.env.REACT_APP_MongoDB_PW
