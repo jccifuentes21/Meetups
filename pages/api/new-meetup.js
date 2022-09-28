@@ -1,6 +1,6 @@
 import { MongoClient } from "mongodb";
 
-const mongoPw= process.env.REACT_APP_MongoDB_PW
+const mongoPw = process.env.REACT_APP_MongoDB_PW;
 
 //This code only runs in the server side!!! It is safe to store credentials
 const handler = async (req, res) => {
