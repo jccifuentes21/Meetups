@@ -53,7 +53,7 @@ export const getStaticProps = async () => {
       })),
     },
     //Revalidate regenerates this page on the server at least every n seconds if there are requests for the page.
-    revalidate: 100,
+    revalidate: 1,
   };
 };
 
